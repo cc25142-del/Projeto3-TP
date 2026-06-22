@@ -1,0 +1,3 @@
+usar 
+python main.py
+ no terminal caso não rode

@@ -15,8 +15,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.modo_edicao = False
         self.registro_selecionado = None
         
+        # Lista de departamentos disponíveis
+        self.departamentos = ['TI', 'RH', 'Financeiro', 'Marketing', 'Operações', 'Vendas']
+        
         # Inicializa a tabela de salários
         self.inicializar_tabela_salarios()
+        
+        # Inicializa o combo de departamentos
+        self.comboDepartamento.addItems(self.departamentos)
         
         # Conecta todos os botões
         self.btnNovo.clicked.connect(self.novo_registro)
