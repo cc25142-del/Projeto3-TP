@@ -1,3 +1,6 @@
+# 25142 - Isabella Cristine Santos Fernandes
+# 25673 - Emily Taysa de Souza Alves
+
 from PySide6.QtCore import QRect, Qt
 from PySide6.QtWidgets import (
     QMainWindow, QWidget, QTabWidget, QLineEdit, QComboBox, 
