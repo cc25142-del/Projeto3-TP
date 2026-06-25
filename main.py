@@ -1,3 +1,6 @@
+# 25142 - Isabella Cristine Santos Fernandes
+# 25673 - Emily Taysa de Souza Alves
+
 import sys
 from datetime import datetime
 from PySide6.QtWidgets import (
